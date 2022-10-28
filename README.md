@@ -116,3 +116,4 @@ Some of the methods listed are provided to you in the starter code. You should c
 ## Rubric
 
 You can find the rubric for this assessment [here](https://github.com/learn-co-curriculum/se-rubrics/blob/master/module-1.md).
+
