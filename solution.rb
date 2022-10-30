@@ -1,6 +1,6 @@
 # Please copy/paste all three classes into this file to submit your solution!
 
-# ARTICLE
+# ARTICLE CLASS
 class Article
   attr_reader :author, :magazine, :title
   @@all = []
@@ -17,7 +17,7 @@ class Article
   end
 end
 
-# MAGAZINE
+# MAGAZINE CLASS
 require_relative "./article"
  class Magazine
    attr_accessor :name, :category
@@ -50,7 +50,7 @@ require_relative "./article"
   end
 end
 
-# AUTHOR
+# AUTHOR CLASS
 require_relative "./article.rb"
 class Author
   attr_reader :name
