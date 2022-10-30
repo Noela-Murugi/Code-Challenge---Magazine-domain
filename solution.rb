@@ -46,7 +46,7 @@ require_relative "./article"
 
   def contributing_authors
     Article.all.filter {|article| article.magazine == self}.map{|article| article.author}.uniq
-    .filter {|author|  all_magazine_authors.count(author) > 2}
+    .filter {|author|author.articles.count(author) > 2}
   end
 end
 
